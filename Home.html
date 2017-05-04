@@ -44,22 +44,41 @@
             <li><a href="#!">Cerrar sesión</a></li>
 
         <ul id="dropdown1" class="dropdown-content">
-          <li><a href="#!">one</a></li>
-          <li><a href="#!">two</a></li>
+          <li><a href="#!">Mis Peliculas</a></li>
+          <li><a href="#!">Editar</a></li>
+          <li><a href="#!">Cerrar sesión</a></li>
+
         </ul>
        </div>
       </nav>
     </header>
-    <div class="carousel carousel-slider">
-      <a class="carousel-item" href="#one!"><img src="Images/rapidosyfuriosos8.jpg" ></a>
-      <a class="carousel-item" href="#two!"><img src="Images/rapidosyfuriosos8.jpg"></a>
-      <a class="carousel-item" href="#three!"><img src="Images/rapidosyfuriosos8.jpg"></a>
-      <a class="carousel-item" href="#four!"><img src="Images/rapidosyfuriosos8.jpg"></a>
+    <div class=" carousel carousel-slider center" data-indicators="true">
+      <div class="carousel-fixed-item center">
+        <a class="btn waves-effect white grey-text darken-text-2">button</a>
+      </div>
+      <div class="carousel-item black white-text" href="#one!">
+        <h2>First Panel</h2>
+        <p class="white-text">This is your first panel</p>
+      </div>
+      <div class="carousel-item black white-text" href="#two!">
+        <h2>Second Panel</h2>
+        <p class="white-text">This is your second panel</p>
+      </div>
+      <div class="carousel-item black white-text" href="#three!">
+        <h2>Third Panel</h2>
+        <p class="white-text">This is your third panel</p>
+      </div>
+      <div class="carousel-item black white-text" href="#four!">
+        <h2>Fourth Panel</h2>
+        <p class="white-text">This is your fourth panel</p>
+      </div>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script type="text/javascript">
       $(".button-collapse").sideNav();
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+
     </script>
   </body>
 </html>
