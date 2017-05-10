@@ -2335,3 +2335,6 @@
   overflow: visible;
   clip: auto;
 }
+.border{
+  border: 1px solid;
+}
