@@ -1,4 +1,4 @@
-.asco{
+.fondo{
   position:absolute;
   z-index:-1;
   width:100%;
@@ -7,4 +7,19 @@
 
 .margin-top-20{
   margin-top: 20px;
+}
+.height{
+  height: 500px !important;
+}
+
+@media (max-width: 1050px){
+  .height{
+    height: 350px !important;
+  }
+}
+
+@media (max-width: 600px){
+  .height{
+    height: 650px !important;
+  }
 }
