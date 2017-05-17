@@ -1,3 +1,4 @@
+
 .fondo{
   position:absolute;
   z-index:-1;
@@ -12,13 +13,13 @@
   height: 500px !important;
 }
 
-@media (max-width: 1050px){
+@media screen and(max-width: 1050px){
   .height{
     height: 350px !important;
   }
 }
 
-@media (max-width: 600px){
+@media screen and(max-width: 600px){
   .height{
     height: 650px !important;
   }
