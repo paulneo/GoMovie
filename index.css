@@ -5,6 +5,20 @@
   width:100%;
   height:100%;
 }
+.twitter{
+  width: 3%;
+  margin-left: 45%;
+  margin-top: 15%;
+}
+.facebook{
+  width: 3%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+.formulario{
+  width: 20%;
+  margin: 0 auto;
+}
 
 .margin-top-20{
   margin-top: 20px;
