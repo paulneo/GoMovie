@@ -23,6 +23,9 @@
 .margin-top-20{
   margin-top: 20px;
 }
+.margin-left-50{
+  margin-left: 50px;
+}
 .padding-20{
   padding: 20px;
 }
@@ -30,6 +33,17 @@
 .height{
   height: 500px !important;
 }
+.global{
+  height: auto;
+  width: 100%;
+  overflow-x:œ scroll;
+}
+.contenido{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
 
 @media screen and(max-width: 1050px){
   .height{
@@ -41,4 +55,11 @@
   .height{
     height: 650px !important;
   }
+}
+
+.inline-block{
+  display: inline-block;
+}
+.global .card .card-image{
+  width: 150px;
 }
