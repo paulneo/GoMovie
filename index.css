@@ -33,17 +33,6 @@
 .height{
   height: 500px !important;
 }
-.global{
-  height: auto;
-  width: 100%;
-  overflow-x:œ scroll;
-}
-.contenido{
-  height: auto;
-  display: flex;
-  flex-direction: row;
-}
-
 
 @media screen and(max-width: 1050px){
   .height{
@@ -59,7 +48,25 @@
 
 .inline-block{
   display: inline-block;
+  margin-right: 6px;
 }
 .global .card .card-image{
   width: 150px;
+}
+.global{
+  display: flex;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: slategray;
+}
+
+::-webkit-scrollbar-track {
+  background: #b8c0c8;
 }
