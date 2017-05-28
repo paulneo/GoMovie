@@ -26,6 +26,12 @@
 .margin-left-50{
   margin-left: 50px;
 }
+.margin-bottom-70px{
+  margin-bottom: 70px;
+}
+.margin-bottom-0px{
+  margin-bottom: 0px !important;
+}
 .padding-20{
   padding: 20px;
 }
