@@ -37,18 +37,18 @@
 }
 
 .height{
-  height: 500px !important;
+  height: 570px !important;
 }
 
-@media screen and(max-width: 1050px){
+@media  and(max-width: 900px){
   .height{
-    height: 350px !important;
+    height: 390px !important;
   }
 }
 
-@media screen and(max-width: 600px){
+@media  and(max-width: 400px){
   .height{
-    height: 650px !important;
+    height: 570px !important;
   }
 }
 
