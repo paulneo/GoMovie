@@ -58,9 +58,7 @@
   display: inline-block;
   margin-right: 6px;
 }
-.global .card .card-image{
-  width: 123px;
-}
+
 .global{
   display: flex;
   overflow: auto;
