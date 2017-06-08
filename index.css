@@ -76,3 +76,10 @@
 ::-webkit-scrollbar-track {
   background: #b8c0c8;
 }
+.border-bottom{
+  border-bottom:4px solid white
+}
+.centrar{
+   height: 200px
+
+}
