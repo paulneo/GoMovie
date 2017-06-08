@@ -22,13 +22,7 @@
            <li><a href="#">Destacados</a></li>
            <li><a href="#">Series</a></li>
            <li>
-             <div class="nav-wrapper">
-               <div class="input-field height-64px">
-                 <input id="search" type="search" required>
-                 <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                 <i class="material-icons">close</i>
-               </div>
-             </div>
+             <a href="#modal1" data-activates="modal1"><i class="material-icons">search</i></a>
            <li >
              <a class="dropdown-button " href="#!" data-activates="dropdown1">
                <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
@@ -90,6 +84,14 @@
          </ul>
        </div>
       </nav>
+      <div id="modal1" class="modal indigo">
+        <div class=" input-field height-64px indigo">
+            <input id="search" type="search" >
+            <label class="label-icon" ><i class=" black-text material-icons">search</i></label>
+        </div>
+        <a href="#!" class=" right modal-action modal-close waves-effect waves-green btn-flat white-text">Buscar</a>
+
+      </div>
     </header>
     <div class=" height carousel carousel-slider center " data-indicators="true" >
       <div style="height:100%" class=" carousel-item  valign-demo black white-text" href="#one!">
@@ -492,6 +494,7 @@
     <script type="text/javascript">
       $(".button-collapse").sideNav();
       $('.carousel.carousel-slider').carousel({fullWidth: true});
+      $('.modal').modal();
 
     </script>
   </body>
