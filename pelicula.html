@@ -12,73 +12,88 @@
     <title>Pelicula | GoMovie </title>
   </head>
   <body style="overflow:scroll;height:auto;width:auto" class="grey darken-4">
-   <header>
-     <nav class="left-align nav-extended teal">
-      <div class=" container nav-wrapper teal  ">
-        <a href="#" class="left-align brand-logo">GoMovie</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse "><i class="material-icons">menu</i></a>
-        <a href="#" data-activates="nav-mobile" class="right button-collapse "><i class="left material-icons search">search</i></a>
-        <ul class=" right hide-on-med-and-down " >
-           <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Generos</a></li>
-           <li><a href="#">Estrenos</a></li>
-           <li><a href="#">Destacados</a></li>
-           <li><a href="#">Series</a></li>
-           <li>
-             <a  class='dropdown-button' href='#' data-activates='dropdown3' href="#"><i class="material-icons search">search</i></a></li>
-           <li >
-             <a class="dropdown-button " href="#!" data-activates="dropdown1">
-               <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
-               <i class="material-icons right">arrow_drop_down</i>
-             </a>
-           </li>
-         </ul>
-         <ul id="mobile-demo" class="side-nav collapsible" data-collapsible="accordion">
-           <li>
-             <div class="userView">
-               <div class="background">
-                 <img src="images/office.jpg">
-               </div>
-               <a href="#!user"><i class="circle fa fa-user-circle fa-5x" aria-hidden="true"></i></a>
-               <a href="#!name"><span class="white-text name email">Jean Paul</span></a>
-             </div>
-           </li>
-           <li>
-             <a class="collapsible-header">Géneros</a>
-             <div class="collapsible-body">
-               <ul>
-                 <li><a href="#!">Acción</a></li>
-                 <li><a href="#!">Aventura</a></li>
-                 <li><a href="#!">Ciencia y Ficción</a></li>
-                 <li><a href="#!">Comedia</a></li>
-                 <li><a href="#!">Deportes</a></li>
-                 <li><a href="#!">Documental</a></li>
-                 <li><a href="#!">Romance</a></li>
-                 <li><a href="#!">Terror</a></li>
-               </ul>
-             </div>
-           </li>
-           <li><a class="collapsible-header" href="#!">Estrenos</a></li>
-           <li><a class="collapsible-header" href="#!">Destacados</a></li>
-           <li><a class="collapsible-header" href="#!">Mis peliculas </a></li>
-           <li><a class="collapsible-header" href="#!">Cerrar sesión</a></li>
-         </ul>
-         <ul id="dropdown1" class="dropdown-content">
-           <li><a href="#!">Mis Peliculas</a></li>
-           <li><a href="#!">Editar</a></li>
-           <li><a href="#!">Cerrar sesión</a></li>
-         </ul>
-         <ul id="dropdown2" class="dropdown-content">
-           <li><a href="#!">Acción</a></li>
-           <li><a href="#!">Aventura</a></li>
-           <li><a href="#!">Ciencia y Ficción</a></li>
-           <li><a href="#!">Comedia</a></li>
-           <li><a href="#!">Deportes</a></li>
-           <li><a href="#!">Documental</a></li>
-           <li><a href="#!">Romance</a></li>
-           <li><a href="#!">Terror</a></li>
-         </ul>
-       </div>
+  <header>
+    <nav class="left-align nav-extended teal">
+     <div class=" container nav-wrapper teal  ">
+       <a href="#" class="left-align brand-logo">GoMovie</a>
+       <a href="#" data-activates="mobile-demo" class="button-collapse "><i class="material-icons">menu</i></a>
+       <ul class=" right hide-on-med-and-down " >
+          <li>
+            <a class="dropdown-button"  data-activates="dropdown2">Generos<i class="material-icons right">arrow_drop_down</i></a>
+          </li>
+          <li><a href="#">Estrenos</a></li>
+          <li><a href="#">Destacados</a></li>
+          <li><a href="#">Series</a></li>
+          <li>
+            <a href="#modal1" data-activates="modal1"><i class="material-icons">search</i></a>
+          <li >
+            <a class="dropdown-button " href="#!" data-activates="dropdown1">
+              <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+              <i class="material-icons right">arrow_drop_down</i>
+            </a>
+          </li>
+        </ul>
+        <ul id="mobile-demo" class="side-nav collapsible" data-collapsible="accordion">
+          <li>
+            <div class="userView">
+              <div class="background">
+                <img src="images/office.jpg">
+              </div>
+              <a href="#!user"><i class="circle fa fa-user-circle fa-5x" aria-hidden="true"></i></a>
+              <a href="#!name"><span class="white-text name email">Jean Paul</span></a>
+            </div>
+          </li>
+          <li>
+            <div class="z-depth-2 input-field height-64px">
+              <input id="search" type="search" >
+              <label class="label-icon" ><i class=" black-text material-icons">search</i></label>
+            </div>
+          </li>
+          <li>
+            <a class="collapsible-header">Géneros</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#!">Acción</a></li>
+                <li><a href="#!">Aventura</a></li>
+                <li><a href="#!">Ciencia y Ficción</a></li>
+                <li><a href="#!">Comedia</a></li>
+                <li><a href="#!">Deportes</a></li>
+                <li><a href="#!">Documental</a></li>
+                <li><a href="#!">Romance</a></li>
+                <li><a href="#!">Terror</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="collapsible-header" href="#!">Estrenos</a></li>
+          <li><a class="collapsible-header" href="#!">Destacados</a></li>
+          <li><a class="collapsible-header" href="#!">Mis peliculas </a></li>
+          <li><a class="collapsible-header" href="#!">Cerrar sesión</a></li>
+        </ul>
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#!">Mis Peliculas</a></li>
+          <li><a href="#!">Editar</a></li>
+          <li><a href="#!">Cerrar sesión</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li><a href="#!">Acción</a></li>
+          <li><a href="#!">Aventura</a></li>
+          <li><a href="#!">Ciencia y Ficción</a></li>
+          <li><a href="#!">Comedia</a></li>
+          <li><a href="#!">Deportes</a></li>
+          <li><a href="#!">Documental</a></li>
+          <li><a href="#!">Romance</a></li>
+          <li><a href="#!">Terror</a></li>
+        </ul>
+      </div>
       </nav>
+      <div id="modal1" class="modal indigo">
+        <div class=" input-field height-64px indigo">
+            <input id="search" type="search" >
+            <label class="label-icon" ><i class=" black-text material-icons">search</i></label>
+        </div>
+        <a href="#!" class=" right modal-action modal-close waves-effect waves-green btn-flat white-text">Buscar</a>
+
+      </div>
     </header>
     <div class=" center" >
       <div style="height:100%" class="  valign-demo black white-text" href="#one!">
@@ -301,6 +316,9 @@
     <script type="text/javascript">
       $(".button-collapse").sideNav();
       $('.carousel').carousel();
+      $('.modal').modal({
+        opacity: .5
+      });
 
 
     </script>
