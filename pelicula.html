@@ -87,7 +87,11 @@
       </div>
       </nav>
       <div id="modal1" class="modal indigo">
-
+        <div class=" input-field height-64px indigo">
+            <input id="search" type="search" >
+            <label class="label-icon" ><i class=" black-text material-icons">search</i></label>
+        </div>
+        <a href="#!" class=" right modal-action modal-close waves-effect waves-green btn-flat white-text">Buscar</a>
 
       </div>
     </header>
@@ -312,7 +316,9 @@
     <script type="text/javascript">
       $(".button-collapse").sideNav();
       $('.carousel').carousel();
-      
+      $('.modal').modal({
+        opacity: .5
+      });
 
 
     </script>
