@@ -7,6 +7,9 @@
     <title>Ingresar</title>
   </head>
   <body >
+    <div class="opacity">
+
+    </div>
     <img class="fondo" src="Images/linternaverde.jpg"  >
     <nav class="left-align nav-extended teal">
      <div class=" container nav-wrapper teal  ">
@@ -19,8 +22,8 @@
     </nav>
     <img class="twitter" src="Images/twitterblanco.png"  >
     <img class="facebook" src="Images/facebookblanco.png"  >
-    <div class="formulario">
-        <div class="input-field col s12">
+    <div align= "center" class="formulario">
+        <div class="input-field col s12 ">
           <input id="email" type="email" class="validate">
           <label for="email">Email</label>
         </div>
@@ -28,8 +31,12 @@
           <input id="password" type="password" class="validate">
           <label for="password">Password</label>
         </div>
-        <a class="waves-effect waves-light btn">Ingresar</a>
+        <a class="right waves-effect waves-light btn indigo" style="width:100%">Ingresar</a>
     </div>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(".button-collapse").sideNav();
+    </script>
   </body>
 </html>
