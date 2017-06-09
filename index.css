@@ -76,7 +76,7 @@
 }
 
 .table{
-  height: 80vh;
+  height: 92vh;
     display: table;
 }
 .centrar{
@@ -88,9 +88,9 @@
   linear-gradient(
   rgba(35, 21, 21, 0.45),
   rgba(35, 21, 21, 0.45)
-   ),  url("Images/linternaverde.jpg");
+   ),  url("Images/linternaverde2.jpg");
   background-size: cover;
   background-repeat: repeat-x;
-  background-position: center center;
+  background-position: center right;
   background-attachment: fixed;
 }
