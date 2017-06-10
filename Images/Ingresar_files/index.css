@@ -1,0 +1,96 @@
+.height-64px{
+  height: 64px !important;
+}
+
+.twitter{
+  width: 3%;
+  margin-left: 45%;
+  margin-top: 15%;
+}
+.facebook{
+  width: 3%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+.formulario{
+  width: 20%;
+  margin: 0 auto;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+.margin-left-50{
+  margin-left: 50px;
+}
+.margin-bottom-70px{
+  margin-bottom: 70px;
+}
+.margin-bottom-0px{
+  margin-bottom: 0px !important;
+}
+.padding-20{
+  padding: 20px;
+}
+
+.height{
+  height: 570px !important;
+}
+
+@media  and(max-width: 900px){
+  .height{
+    height: 390px !important;
+  }
+}
+
+@media  and(max-width: 400px){
+  .height{
+    height: 570px !important;
+  }
+}
+
+.inline-block{
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.global{
+  display: flex;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: slategray;
+}
+
+::-webkit-scrollbar-track {
+  background: #b8c0c8;
+}
+.border-bottom{
+  border-bottom:4px solid white
+}
+
+.table{
+  height: 94vh;
+    display: table;
+}
+.centrar{
+  display: table-cell;
+  vertical-align: middle;
+}
+.fondo{
+  background-image:
+  linear-gradient(
+  rgba(35, 21, 21, 0.45),
+  rgba(35, 21, 21, 0.45)
+   ),  url("Images/linternaverde.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center right;
+  background-attachment: fixed;
+}
