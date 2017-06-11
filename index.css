@@ -59,18 +59,6 @@
   height: 570px !important;
 }
 
-@media  and(max-width: 900px){
-  .height{
-    height: 390px !important;
-  }
-}
-
-@media  and(max-width: 400px){
-  .height{
-    height: 570px !important;
-  }
-}
-
 .inline-block{
   display: inline-block;
   margin-right: 6px;
@@ -118,4 +106,12 @@
 }
 .text-aling{
   text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-white{
+  margin: 0 auto;
+  padding: 26px;
+  width: 326px;
 }
