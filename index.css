@@ -20,6 +20,9 @@
 .margin-top-20{
   margin-top: 20px;
 }
+.margin-right-100{
+  margin-right: 100px;
+}
 .margin-left-50{
   margin-left: 50px;
 }
@@ -77,7 +80,7 @@
 
 .table{
   height: 94vh;
-    display: table;
+  display: table;
 }
 .centrar{
   display: table-cell;
@@ -93,4 +96,7 @@
   background-repeat: repeat-x;
   background-position: center right;
   background-attachment: fixed;
+}
+.text-aling{
+  text-align: center;
 }
