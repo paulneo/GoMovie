@@ -112,13 +112,104 @@
            </div>
          </div>
        </div>
+       <div id="modal1" class="modal indigo">
+         <div class=" input-field height-64px indigo">
+             <input id="search" type="search" >
+             <label class="label-icon" ><i class=" black-text material-icons">search</i></label>
+         </div>
+         <a href="#!" class=" right modal-action modal-close waves-effect waves-green btn-flat white-text">Buscar</a>
+       </div>
      </header>
 
-     <div class="input-field col s6">
-       <i class="teal-text material-icons prefix">search</i>
-       <input id="search" type="text" class="validate">
-       <label for="search">Buscar</label>
+     <div class="container">
+       <div>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="col s6 ">
+                <p class="white-text">Jean Paul - Mis Peliculas</p>
+              </div>
+              <div class="col s6">
+                <div class="z-depth-2 input-field height-64px indigo">
+                  <input id="search" type="search" >
+                  <label class="label-icon" ><i class=" black-text material-icons">search</i></label>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+       </div>
+       <div>
+         <table class="white-text responsive-table">
+          <thead>
+            <tr>
+                <th>#</th>
+                <th>Peliculas</th>
+                <th>Precio</th>
+                <th>Tiempo de alquiler</th>
+                <th>Inicio de alquiler</th>
+                <th>Fin de alquiler</th>
+
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Rapidos y Furiosos 8</td>
+              <td>S/1.00</td>
+              <td>1 semana</td>
+              <td>20/05/2017</td>
+              <td>27/05/2017</td>
+
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Rapidos y Furiosos 8</td>
+              <td>S/1.00</td>
+              <td>1 semana</td>
+              <td>20/05/2017</td>
+              <td>27/05/2017</td>
+
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Rapidos y Furiosos 8</td>
+              <td>S/1.00</td>
+              <td>1 semana</td>
+              <td>20/05/2017</td>
+              <td>27/05/2017</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <a class="right waves-effect waves-light btn indigo">button</a>
+       </div>
+       <div class="row white-text">
+         <div class="col s12">
+           <div class="col s6">
+             <p>Monto gatado en alquiler</p>
+           </div>
+           <div class="col s6">
+             <p>S/40.00</p>
+           </div>
+         </div>
+         <div class="col s12">
+           <div class="col s6">
+             <p>Peliculas alquiladas</p>
+           </div>
+           <div class="col s6">
+             <p>3</p>
+           </div>
+         </div>
+       </div>
      </div>
-     </script>
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+     <script type="text/javascript">
+       $(".button-collapse").sideNav();
+       $('.modal').modal();
+    </script>
   </body>
 </html>
