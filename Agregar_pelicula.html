@@ -15,7 +15,6 @@
          <a href="#" class="left-align brand-logo">GoMovie</a>
          <a href="#" data-activates="mobile-demo" class="button-collapse "><i class="material-icons">menu</i></a>
          <ul class=" right hide-on-med-and-down " >
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Generos</a></li>
             <li><a href="#">Estrenos</a></li>
             <li><a href="#">Destacados</a></li>
             <li><a href="#">Series</a></li>
@@ -45,28 +44,12 @@
 
               </div>
             </li>
-            <li>
-              <a class="collapsible-header">Géneros</a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#!">Acción</a></li>
-                  <li><a href="#!">Aventura</a></li>
-                  <li><a href="#!">Ciencia y Ficción</a></li>
-                  <li><a href="#!">Comedia</a></li>
-                  <li><a href="#!">Deportes</a></li>
-                  <li><a href="#!">Documental</a></li>
-                  <li><a href="#!">Romance</a></li>
-                  <li><a href="#!">Terror</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header" href="#!">Estrenos</a></li>
-            <li><a class="collapsible-header" href="#!">Destacados</a></li>
-            <li><a class="collapsible-header" href="#!">Mis peliculas </a></li>
+            <li><a class="collapsible-header" href="#!">Pelicula</a></li>
+            <li><a class="collapsible-header" href="#!">Usurio</a></li>
+            <li><a class="collapsible-header" href="#!">Precios </a></li>
             <li><a class="collapsible-header" href="index.html">Cerrar sesión</a></li>
           </ul>
           <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!">Mis Peliculas</a></li>
             <li><a href="#modal3" data-activates="modal3" href="#!">Editar</a></li>
             <li><a href="index.html">Cerrar sesión</a></li>
           </ul>
@@ -124,32 +107,25 @@
      <div class="container">
        <div>
         <div class="row">
-          <form class="col s12">
-            <div class="row">
-              <div class="col s6 ">
-                <p class="white-text">Jean Paul - Mis Peliculas</p>
+          <form class=" ">
+            <div class=" col xl4 l6 m8 s12 ">
+              <div class="z-depth-2 input-field height-64px indigo">
+                <input id="search" type="search" >
+                <label class="label-icon" ><i class=" black-text material-icons">search</i></label>
               </div>
-              <div class="col s6">
-                <div class="z-depth-2 input-field height-64px indigo">
-                  <input id="search" type="search" >
-                  <label class="label-icon" ><i class=" black-text material-icons">search</i></label>
-                </div>
-              </div>
-
             </div>
           </form>
         </div>
        </div>
        <div>
-         <table class="white-text responsive-table">
+         <table class="white-text responsive-table ">
           <thead>
-            <tr>
+            <tr >
                 <th>#</th>
                 <th>Peliculas</th>
-                <th>Precio</th>
-                <th>Tiempo de alquiler</th>
-                <th>Inicio de alquiler</th>
-                <th>Fin de alquiler</th>
+                <th>Categoria</th>
+                <th >Opciones</th>
+
 
             </tr>
           </thead>
@@ -158,52 +134,41 @@
             <tr>
               <td>1</td>
               <td>Rapidos y Furiosos 8</td>
-              <td>S/1.00</td>
-              <td>1 semana</td>
-              <td>20/05/2017</td>
-              <td>27/05/2017</td>
-
+              <td>Estreno</td>
+              <td >
+                <a class="white-text " href="#"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></a>
+                <a class="white-text " href="#"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                <a class="white-text " href="#"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></a>
+              </td>
             </tr>
             <tr>
               <td>2</td>
               <td>Rapidos y Furiosos 8</td>
-              <td>S/1.00</td>
-              <td>1 semana</td>
-              <td>20/05/2017</td>
-              <td>27/05/2017</td>
-
+              <td>Estreno</td>
+              <td>
+                <a class="white-text " href="#"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></a>
+                <a class="white-text " href="#"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                <a class="white-text " href="#"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></a>
+              </td>
             </tr>
             <tr>
               <td>3</td>
               <td>Rapidos y Furiosos 8</td>
-              <td>S/1.00</td>
-              <td>1 semana</td>
-              <td>20/05/2017</td>
-              <td>27/05/2017</td>
+              <td>Estreno</td>
+              <td>
+                <a class="white-text " href="#"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></a>
+                <a class="white-text " href="#"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                <a class="white-text " href="#"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></a>
+              </td>
+
             </tr>
           </tbody>
         </table>
+       </div>
+       <div class="margin-top-20">
+         <a class="right waves-effect waves-light btn indigo">Agregar</a>
+       </div>
 
-        <a class="right waves-effect waves-light btn indigo">button</a>
-       </div>
-       <div class="row white-text">
-         <div class="col s12">
-           <div class="col s6">
-             <p>Monto gatado en alquiler</p>
-           </div>
-           <div class="col s6">
-             <p>S/40.00</p>
-           </div>
-         </div>
-         <div class="col s12">
-           <div class="col s6">
-             <p>Peliculas alquiladas</p>
-           </div>
-           <div class="col s6">
-             <p>3</p>
-           </div>
-         </div>
-       </div>
      </div>
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
