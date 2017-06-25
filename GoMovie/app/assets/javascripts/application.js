@@ -13,6 +13,3 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
-$(".button-collapse").sideNav();
-$('.carousel.carousel-slider').carousel({fullWidth: true});
-$('.modal').modal();
