@@ -23,6 +23,8 @@ default: &default
 
 development:
   <<: *default
+  username: jeanpaul
+  password: jean1234
   database: GoMovie_development
 
   # The specified database role being used to connect to postgres.
