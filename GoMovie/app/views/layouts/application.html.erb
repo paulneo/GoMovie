@@ -1,25 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GoMovie</title>
+    <title>Gomovie</title>
     <%= csrf_meta_tags %>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class="grey darken-4">
-    <%= render 'partials/header' %>
+  <body>
     <%= yield %>
-
   </body>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-  <script type="text/javascript">
-    $(".button-collapse").sideNav();
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
-    $('.modal').modal();
-
-  </script>
 </html>
