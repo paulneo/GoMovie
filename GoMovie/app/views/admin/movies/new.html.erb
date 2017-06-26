@@ -1,0 +1,31 @@
+<div class="container">
+  <div style="background:white; "class=" padding-20 center margin-top-20 ">
+    <div class="row ">
+      <%= form_for(@movie) do |f| %>
+        <div class="input-field col s12 m12 l12 ">
+          <%=f.text_field :name , id:'name' ,type:'text' ,class:'validate'  %>
+          <%= f.label :nombre%>
+        </div>
+        <div class="input-field col s12 m12 l12 ">
+          <%=f.text_field :category , id:'name' ,type:'text' ,class:'validate'  %>
+          <%= f.label :categoria%>
+        </div>
+        <div class="input-field col s12 m12 l12 ">
+          <%=f.text_field :gender , id:'name' ,type:'text' ,class:'validate'  %>
+          <%= f.label :genero%>
+        </div>
+        <div class="input-field col s12 m12 l12 ">
+          <%=f.text_field :sinopsys , id:'name' ,type:'text' ,class:'validate'  %>
+          <%= f.label :sinopsis%>
+        </div>
+        <!-- <div class="input-field col s12 m12 l12 " style="padding-bottom:20px">
+          <%= f.file_field :image %>
+          <%= f.label :imagen%>
+        </div> -->
+        <div class="col s12 m12 l12">
+          <%= f.submit "Enviar", class:' right waves-effect waves-light btn indigo',style:'width:100%'%>
+        </div>
+      <%end%>
+    </div>
+  </div>
+</div>
